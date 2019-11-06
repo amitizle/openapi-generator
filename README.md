@@ -83,7 +83,7 @@ OpenAPI Generator allows generation of API client libraries (SDK generation), se
     - [1.4 - Build Projects](#14---build-projects)
     - [1.5 - Homebrew](#15---homebrew)
     - [1.6 - Docker](#16---docker)
-    - [1.7 - NPM](#17---npm)    
+    - [1.7 - NPM](#17---npm)
   - [2 - Getting Started](#2---getting-started)
   - [3 - Usage](#3---usage)
     - [3.1 - Customization](#31---customization)
@@ -317,7 +317,7 @@ GEN_IP=$(docker inspect --format '{{.NetworkSettings.IPAddress}}'  $CID)
 
 {"code":"c2d483.3.4672-40e9-91df-b9ffd18d22b8","link":"http://localhost:8888/api/gen/download/c2d483.3.4672-40e9-91df-b9ffd18d22b8"}
 
-# Download the generated zip file  
+# Download the generated zip file
 > wget http://localhost:8888/api/gen/download/c2d483.3.4672-40e9-91df-b9ffd18d22b8
 
 # Unzip the file
@@ -477,7 +477,7 @@ SYNOPSIS
                 [--model-name-prefix <model name prefix>]
                 [--model-name-suffix <model name suffix>]
                 [--model-package <model package>]
-                [(-o <output directory> | --output <output directory>)] 
+                [(-o <output directory> | --output <output directory>)]
                 [(-p <additional properties> | --additional-properties <additional properties>)...]
                 [--package-name <package name>] [--release-note <release note>]
                 [--remove-operation-id-prefix]
@@ -557,7 +557,7 @@ Here is a list of community-conitributed IDE plug-ins that integrate with OpenAP
 - Visual Studio: [REST API Client Code Generator](https://marketplace.visualstudio.com/items?itemName=ChristianResmaHelle.ApiClientCodeGenerator) by [Christian Resma Helle](https://christian-helle.blogspot.com/)
 - Visual Studio Code: [Codewind OpenAPI Tools](https://marketplace.visualstudio.com/items?itemName=IBM.codewind-openapi-tools) by [IBM](https://marketplace.visualstudio.com/publishers/IBM)
 
- 
+
 ## [4 - Companies/Projects using OpenAPI Generator](#table-of-contents)
 Here are some companies/projects (alphabetical order) using OpenAPI Generator in production. To add your company/project to the list, please visit [README.md](README.md) and click on the icon to edit the page.
 
@@ -603,6 +603,7 @@ Here are some companies/projects (alphabetical order) using OpenAPI Generator in
 - [Ponicode](https://ponicode.dev/)
 - [Pricefx](https://www.pricefx.com/)
 - [Prometheus/Alertmanager](https://github.com/prometheus/alertmanager)
+- [QEDIT](https://qed-it.com)
 - [Qulix Systems](https://www.qulix.com)
 - [Raiffeisen Schweiz Genossenschaft](https://www.raiffeisen.ch)
 - [RedHat](https://www.redhat.com)
@@ -640,7 +641,7 @@ Here are some companies/projects (alphabetical order) using OpenAPI Generator in
 - 2019/01/03 - [Calling a Swagger service from Apex using openapi-generator](https://lekkimworld.com/2019/01/03/calling-a-swagger-service-from-apex-using-openapi-generator/) by [Mikkel Flindt Heisterberg](https://lekkimworld.com)
 - 2019/01/13 - [OpenAPI GeneratorでRESTful APIの定義書から色々自動生成する](https://ky-yk-d.hatenablog.com/entry/2019/01/13/234108) by [@ky_yk_d](https://twitter.com/ky_yk_d)
 - 2019/01/20 - [Contract-First API Development with OpenAPI Generator and Connexion](https://medium.com/commencis/contract-first-api-development-with-openapi-generator-and-connexion-b21bbf2f9244) by [Anil Can Aydin](https://github.com/anlcnydn)
-- 2019/01/30 - [Rapid Application Development With API First Approach Using Open-API Generator](https://dzone.com/articles/rapid-api-development-using-open-api-generator) by [Milan Sonkar](https://dzone.com/users/828329/milan_sonkar.html)  
+- 2019/01/30 - [Rapid Application Development With API First Approach Using Open-API Generator](https://dzone.com/articles/rapid-api-development-using-open-api-generator) by [Milan Sonkar](https://dzone.com/users/828329/milan_sonkar.html)
 - 2019/02/02 - [平静を保ち、コードを生成せよ 〜 OpenAPI Generator誕生の背景と軌跡 〜](https://speakerdeck.com/akihito_nakano/gunmaweb34) by [中野暁人](https://github.com/ackintosh) at [Gunma.web #34 スキーマ駆動開発](https://gunmaweb.connpass.com/event/113974/)
 - 2019/02/20 - [An adventure in OpenAPI V3 code generation](https://mux.com/blog/an-adventure-in-openapi-v3-api-code-generation/) by [Phil Cluff](https://mux.com/blog/author/philc/)
 - 2019/02/26 - [Building API Services: A Beginner’s Guide](https://medium.com/google-cloud/building-api-services-a-beginners-guide-7274ae4c547f) by [Ratros Y.](https://medium.com/@ratrosy) in [Google Cloud Platofrm Blog](https://medium.com/google-cloud)
@@ -701,7 +702,7 @@ OpenAPI Generator core team members are contributors who have been making signif
 * [@jmini](https://github.com/jmini) (2018/04)  [:heart:](https://www.patreon.com/jmini)
 * [@etherealjoy](https://github.com/etherealjoy) (2019/06)
 
-:heart: = Link to support the contributor directly 
+:heart: = Link to support the contributor directly
 
 #### Template Creator
 
@@ -757,7 +758,7 @@ Here is a list of template creators:
    * PHP (Guzzle): @baartosz
    * PowerShell: @beatcracker
    * R: @ramnov
-   * Ruby (Faraday): @meganemura @dkliban 
+   * Ruby (Faraday): @meganemura @dkliban
    * Rust: @farcaller
    * Rust (rust-server): @metaswitch
    * Scala (scalaz & http4s): @tbrown1979
@@ -767,7 +768,7 @@ Here is a list of template creators:
    * Swift 4: @ehyche
    * TypeScript (Angular1): @mhardorf
    * TypeScript (Angular2): @roni-frantchi
-   * TypeScript (Angular6): @akehir 
+   * TypeScript (Angular6): @akehir
    * TypeScript (Angular7): @topce
    * TypeScript (Axios): @nicokoenig
    * TypeScript (Fetch): @leonyu
@@ -778,7 +779,7 @@ Here is a list of template creators:
  * Server Stubs
    * Ada: @stcarrez
    * C# ASP.NET 5: @jimschubert [:heart:](https://www.patreon.com/jimschubert)
-   * C# ASP.NET Core 3.0: @A-Joshi 
+   * C# ASP.NET Core 3.0: @A-Joshi
    * C# NancyFX: @mstefaniuk
    * C++ (Qt5 QHttpEngine): @etherealjoy
    * C++ Pistache: @sebymiano
@@ -821,7 +822,7 @@ Here is a list of template creators:
  * Configuration
    * Apache2: @stkrwork
  * Schema
-   * Avro: @sgadouar 
+   * Avro: @sgadouar
    * GraphQL: @wing328 [:heart:](https://www.patreon.com/wing328)
    * MySQL: @ybelenko
    * Protocol Buffer: @wing328
@@ -959,7 +960,7 @@ OpenAPI Generator is a fork of [Swagger Codegen](https://github.com/swagger-api/
 ## [7 - License](#table-of-contents)
 -------
 
-Copyright 2018 OpenAPI-Generator Contributors (https://openapi-generator.tech)  
+Copyright 2018 OpenAPI-Generator Contributors (https://openapi-generator.tech)
 Copyright 2018 SmartBear Software
 
 Licensed under the Apache License, Version 2.0 (the "License");
